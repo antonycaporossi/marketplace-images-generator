@@ -113,7 +113,7 @@ class ImagesPipe():
 
 
     def _operation(self, aggregator, image, image_key, save_path):
-        operations = Config.OPERAZIONS.get(aggregator)
+        operations = Config.OPERATIONS.get(aggregator)
         if operations.get("fit"):
             image = ImageOps.fit( image, operations.get("fit") )
         if operations.get("mirror"):
