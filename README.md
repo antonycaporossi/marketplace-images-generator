@@ -76,7 +76,7 @@ python xml_parser.py --limit 10
 
 **Process a specific product:**
 ```bash
-python xml_parser.py --product PRODUCT_SKU
+python xml_parser.py --product PRODUCT_ID
 ```
 
 **Force XML feed update before processing:**
